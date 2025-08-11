@@ -1,0 +1,27 @@
+.container-input{
+    display: flex;
+    justify-content: center;
+}
+.input-task{
+    flex: 0 1 300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 1px;
+}
+.input-task:focus, .button-task:focus {
+    outline: none;
+}
+.button-task{
+    flex: 0 1 100px;
+    padding: 8px 16px;
+    background-color: rgb(167, 33, 78);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.button-task:hover{
+    background-color: rgb(145, 29, 68)
+
+}
