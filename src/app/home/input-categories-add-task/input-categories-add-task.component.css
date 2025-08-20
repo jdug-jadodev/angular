@@ -1,0 +1,10 @@
+.input-task{
+    flex: 0 1 50px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 1px;
+}
+.input-task:focus {
+    outline: none;
+}

@@ -3,7 +3,7 @@
     justify-content: center;
 }
 .input-task{
-    flex: 0 1 300px;
+    flex: 0 1 200px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;

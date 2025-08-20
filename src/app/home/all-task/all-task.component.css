@@ -1,7 +1,7 @@
 .container-all-task{
     display: flex;
     justify-content: center;
-    /* width: 100%; */
+    
 }
 .list-task{
     display: flex;
@@ -10,10 +10,22 @@
     padding: 0;
     flex: 0 1 400px;
 }
+.category {
+    color: rgb(0, 0, 0);
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    list-style: none;
+}
+.span-category-task{
+    color: rgb(206, 206, 206);
+}
 .task{
+    list-style: none;
     color: rgb(255, 255, 255);
     background-color: rgba(167, 33, 78, 0.658);
     padding: 10px;
     display: flex;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
 }
