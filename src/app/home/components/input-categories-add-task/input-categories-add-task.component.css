@@ -1,10 +1,12 @@
 .input-task{
-    flex: 0 1 50px;
+    flex: 1;
+    min-width: 50px;
+    max-width: 100px;     
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 1px;
 }
 .input-task:focus {
-    outline: none;
+    outline: 1px solid rgb(167, 33, 78);
 }

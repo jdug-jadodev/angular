@@ -1,0 +1,18 @@
+.container-categories{
+    display: flex;
+}
+.category-select{
+    flex: 1;
+    min-width: 50px; 
+    max-width: 200px;     
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 1px;
+}
+
+.category-select:focus{
+    outline: 1px solid rgb(167, 33, 78);
+    border: none;
+
+}

@@ -1,0 +1,9 @@
+.category {
+    color: rgb(0, 0, 0);
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+    list-style: none;
+}
+.span-category-task{
+    color: rgb(206, 206, 206);
+}
