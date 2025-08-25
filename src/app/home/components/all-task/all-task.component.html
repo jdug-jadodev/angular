@@ -1,0 +1,20 @@
+<div class="container-all-task-header">
+    <h3 class="title-all-tasks" (click)="showAllTasks()">All tasks</h3>
+    <app-categories></app-categories>
+</div>
+<div class="container-all-task">
+
+  <ul class="list-task">
+
+    <ng-container *ngIf="(tasks$ | async)?.length === 0">
+      <p class="no-tasks">No tasks available</p>
+    </ng-container>
+
+    <app-task-item
+      *ngFor="let task of tasks$ | async; trackBy: trackById"
+      class="task"
+      [task]="task">
+    </app-task-item>
+    
+  </ul>
+</div>

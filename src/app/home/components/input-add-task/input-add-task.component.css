@@ -3,18 +3,20 @@
     justify-content: center;
 }
 .input-task{
-    flex: 0 1 300px;
-    padding: 8px;
+    flex: 1;
+    min-width: 50px; 
+    max-width: 200px;     
+    padding: 2px;
     border: 1px solid #ccc;
     border-radius: 4px;
     margin-right: 1px;
 }
 .input-task:focus, .button-task:focus {
-    outline: none;
+    outline: 1px solid rgb(167, 33, 78);
 }
 .button-task{
-    flex: 0 1 100px;
-    padding: 8px 16px;
+    flex: 0 0 80px;
+    padding: 2px 6px;
     background-color: rgb(167, 33, 78);
     color: white;
     border: none;
@@ -23,5 +25,4 @@
 }
 .button-task:hover{
     background-color: rgb(145, 29, 68)
-
 }

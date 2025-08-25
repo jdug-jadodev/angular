@@ -1,0 +1,24 @@
+<div class="container-categories">
+  <select 
+    name="categories" 
+    id="categories" 
+    (change)="onCategorySelected($event)"
+    class="category-select"
+  >
+
+    <option value="">Select a category</option>
+    
+    <ng-container *ngIf="(categories$ | async)?.length === 0">
+      <option disabled>No categories available</option>
+    </ng-container>
+
+    <option 
+      *ngFor="let category of categories$ | 
+      async" [value]="category" 
+      class="category-option"
+    >
+      {{ category }}
+    </option>
+
+  </select>
+</div>
